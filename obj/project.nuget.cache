@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XVUx5DTzKr/QHs+XKGvnm79shsbtJslP3xU3b+HEXqcWDNSC6MdYbmdJZjua8nvRNqwpAW9NdIB72zQEPSczcA==",
+  "dgSpecHash": "lS06Lbp21DfhVqkXHUB3x0T8faPOi98EvzPKm+YABmRr9TaY/C1yP4O6zc7f4RgV1vorIVs/jTKQH/XrWNH9Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\grace.torres\\source\\repos\\RazorPagesProduct\\RazorPagesProduct.csproj",
+  "projectFilePath": "C:\\Users\\grace.torres\\source\\repos\\RazorPagesProduct\\Estoque-exercicio-DbServer\\RazorPagesProduct.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grace.torres\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\grace.torres\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

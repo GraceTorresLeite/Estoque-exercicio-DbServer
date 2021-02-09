@@ -23,38 +23,48 @@
                 @Html.DisplayNameFor(model => model.Product[0].Amount)
             </th>
             <th></th>
-           
+
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Product) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Amount)
-            </td>
-           
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Editar</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Detales</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Excluir</a>
-            </td>
+        @foreach (var item in Model.Product)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
 
-            <td></td>
-        </tr>
-}
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.ID">Editar</a> |
+                    <a asp-page="./Details" asp-route-id="@item.ID">Detales</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.ID">Excluir</a>
+                </td>
+
+                <td></td>
+            </tr>
+        }
     </tbody>
 </table>
-    <p>
-    <b>Total de produtos:</b>
-        @for (int i = 0; i < Model.Product.Count(); i++)
-        {
-            var total = Model.Product[i];
-            total.Amount++;
-        }
-    </p>
+<!--Pesquisas-->
+<!--https://stackoverflow.com/questions/6601715/how-to-declare-a-local-variable-in-razor-->
+<p>
+    @{
+        var totalQuantidade = 0;
+    }
+    @foreach (var produto in Model.Product)
+    {
+        totalQuantidade += produto.Amount;
+    }
+
+    <b>Total de produtos: @totalQuantidade</b>
+
+
+
+
+</p>

@@ -8827,11 +8827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grace.torres\\source\\repos\\RazorPagesProduct\\RazorPagesProduct.csproj",
+      "projectUniqueName": "C:\\Users\\grace.torres\\source\\repos\\RazorPagesProduct\\Estoque-exercicio-DbServer\\RazorPagesProduct.csproj",
       "projectName": "RazorPagesProduct",
-      "projectPath": "C:\\Users\\grace.torres\\source\\repos\\RazorPagesProduct\\RazorPagesProduct.csproj",
+      "projectPath": "C:\\Users\\grace.torres\\source\\repos\\RazorPagesProduct\\Estoque-exercicio-DbServer\\RazorPagesProduct.csproj",
       "packagesPath": "C:\\Users\\grace.torres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grace.torres\\source\\repos\\RazorPagesProduct\\obj\\",
+      "outputPath": "C:\\Users\\grace.torres\\source\\repos\\RazorPagesProduct\\Estoque-exercicio-DbServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
