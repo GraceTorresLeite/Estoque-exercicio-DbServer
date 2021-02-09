@@ -5,6 +5,17 @@
 ## Product Inventory Project 
   - **Create** an application which manages an inventory of products. Create a **product class** which has a **name, price, id, and quantity on hand.** Then create an inventory class which keeps track of various products and **can sum up the inventory value.**
   
+  ## Descrição da solução
+
+ * [Apresentação](https://gracetorresleite.github.io/Estoque-exercicio-DbServer/Pages/Products/Index.cshtml)
+ 
+| Prioridade |Objetivo do Produto | Resultado               |
+|------------|--------------------|-------------------------|
+|     1      |inserir produto     |inventário visível       |
+|     2      |atualizar           |movimentar inventário    |
+|     3      |somar totalidades   |controle de inventário   |
+
+  
  <img src="/wwwroot/img/page_product.png" width="750" height="500">
   
   * [Exercício proposto mentoria](https://docs.google.com/document/d/1m3bfr1bRYzvWzAEKWbXHCAaMlIa6uc7_/edit)
