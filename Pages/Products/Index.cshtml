@@ -51,6 +51,7 @@
         }
     </tbody>
 </table>
+<hr />
 <!--Pesquisas-->
 <!--https://stackoverflow.com/questions/6601715/how-to-declare-a-local-variable-in-razor-->
 <p>
@@ -64,7 +65,17 @@
 
     <b>Total de produtos: @totalQuantidade</b>
 
+</p>
+<hr/>
+<p>
+    @{
+        var totalPreco = 0M;
+    }
+    @foreach (var precoProduto in Model.Product)
+    {
+        totalPreco += precoProduto.Price;
+    }
 
-
+    <b>Capital total: @totalPreco</b>
 
 </p>
